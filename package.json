@@ -1,0 +1,20 @@
+{
+  "name": "@mosssupply/resoshock",
+  "version": "0.1.0",
+  "description": "Control PiShock Devices from Resonite",
+  "license": "MIT",
+  "author": "mosssupply",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx --env-file=.env index.ts"
+  },
+  "dependencies": {
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.22.4"
+  }
+}
