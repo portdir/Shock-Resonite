@@ -16,8 +16,7 @@ In the `pishock host/Variable(s)` there are some Variables that need to be chang
 
 In `SAFE` you can find.
 
-1. `MAXinputs/Duration` - Range 1000-15000 - The max of how long a action can be.
- "this is in ms (15000ms = 15s)".
+1. `MAXinputs/Duration` - Range 1000-15000 - The max of how long a action can be. "this is in ms (15000ms = 15s)".
 3. `MAXinputs/Intensity` - Range 1-100 - The max of the Intensity.
 4. `MAXinputs/safecode` - Range 0-100 - The safe code is for stopping users without it from activating the pishock.
 
