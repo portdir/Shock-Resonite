@@ -22,8 +22,8 @@ In `SAFE` you can find.
 
 In `HOST` you can find.
 
-1. `PiShock/Port` - set this to the port you set in `.env`/`--port <port>`.
-2. `PiShock/Host` - keep this the same. if your not running [Shock-Resonite](https://github.com/portdir/Shock-Resonite) on your PC set it to the IP of the server in question.
+1. `PiShock/Port` - Set this to the port you set in `.env`/`--port <port>`.
+2. `PiShock/Host` -Keep this the same. if your not running [Shock-Resonite](https://github.com/portdir/Shock-Resonite) on your PC set it to the IP of the server in question.
 
 ## More Reading
 * [PiShock API Docs](https://pishock.helpscoutdocs.com/article/32-api)
