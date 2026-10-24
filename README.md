@@ -4,14 +4,14 @@ Control PiShock devices from Resonite. *No AI was used in the making of this pro
 ## Getting Started
 Install dependencies with `pnpm i`. Copy `.env.example` to `.env` and add your API key.
 
-## Running - host
+## Running - Host
 Use `pnpm start` to run the app using your environment variables.
 
 You can optionally pass in override arguments when running the application.
 `--port <port>`
 `--api-key <api key>`
 
-## Running - ingame
+## Running - In game
 In the `pishock host/Variable(s)` there are some Variables that need to be changed for this to work.
 
 In `SAFE` you can find.
