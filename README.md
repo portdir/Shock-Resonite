@@ -11,7 +11,21 @@ You can optionally pass in override arguments when running the application.
 `--port <port>`
 `--api-key <api key>`
 
+## Running
+In the `pishock host/Variable(s)` there are some Variables that need to be changed for this to work.
+
+In `SAFE` you can find.
+
+1. `MAXinputs/Duration` - Range 1000-15000 - The max of how long a action can be "this is in ms (15000ms = 15s)".
+2. `MAXinputs/Intensity` - Range 1-100 - The max of the Intensity.
+3. `MAXinputs/safecode` - Range 0-100 - The safe code is for stopping users without it from activating the pishock.
+
+In `HOST` you can find.
+
+1. `PiShock/Port` - set this to the port you set in `.env`/`--port <port>`.
+2. `PiShock/Host` - keep this the same. if your not running [Shock-Resonite](https://github.com/portdir/Shock-Resonite) on your PC set it to the IP of the server in question.
+
 ## More Reading
-[PiShock API Docs](https://pishock.helpscoutdocs.com/article/32-api)
-[PiShock Swagger Docs](https://api.pishock.com/swagger/index.html?urls.primaryName=v1)
-[Resonite Wiki WebSocket Documentation](https://wiki.resonite.com/WebSocket)
+* [PiShock API Docs](https://pishock.helpscoutdocs.com/article/32-api)
+* [PiShock Swagger Docs](https://api.pishock.com/swagger/index.html?urls.primaryName=v1)
+* [Resonite Wiki WebSocket Documentation](https://wiki.resonite.com/WebSocket)
