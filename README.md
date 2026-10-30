@@ -26,6 +26,9 @@ In `HOST` you can find.
 2. `PiShock/Host` - Keep this the same. if your not running [Shock-Resonite](https://github.com/portdir/Shock-Resonite) on your PC set it to the IP of the server in question.
 
 ## More Reading
+Swagger API broke most other ones so here ya goo peps.
+
+Also this keep the API key out of the game so its a bit safer for other things.
 * [PiShock API Docs](https://pishock.helpscoutdocs.com/article/32-api)
 * [PiShock Swagger Docs](https://api.pishock.com/swagger/index.html?urls.primaryName=v1)
 * [Resonite Wiki WebSocket Documentation](https://wiki.resonite.com/WebSocket)
